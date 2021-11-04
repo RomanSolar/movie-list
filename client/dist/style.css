@@ -1,0 +1,123 @@
+body {
+    font-family: sans-serif, arial;
+    margin: 0;
+    padding: 0 50px;
+}
+
+button, p {
+    cursor: pointer;
+    user-select: none;
+}
+
+button.green {
+    color: white;
+}
+
+.green {
+    background: #78b05c;
+    font-weight: bold;
+}
+
+h1, li, input, button, span, img {
+    border: 1px solid #d3d3d3;
+}
+
+span {
+    display: block;
+}
+
+h1 {
+    border-width: 0;
+    border-bottom-width: 1px;
+    margin: 0 -50px;
+    padding: 0.5em 1em;
+    background: #f4f4f4;
+    font-family: 'Comic Sans MS';
+    font-weight: normal;
+    font-size: 1.5em;
+}
+
+form, nav {
+    margin-top: 1em;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+p, span {
+    padding: 1em 3em;
+}
+
+p {
+    margin: 0;
+}
+
+li {
+    list-style: none;
+    border-bottom-width: 0;
+}
+
+li:last-child {
+    border-bottom-width: 1px;
+}
+
+form {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-grow: 1;
+}
+
+input {
+    flex-grow: 1;
+}
+
+form button {
+    border-left: none;
+    font-size: 1em;
+}
+
+form .green {
+    margin-left: 0.5em;
+}
+
+nav {
+    display: flex;
+}
+
+aside {
+    display: flex;
+}
+
+table {
+    flex-grow: 1;
+    height: 0;
+    line-height: 1.5em;
+}
+
+th {
+    width: 0;
+    padding-right: 1em;
+}
+
+nav > button {
+    width: 8em;
+    margin-right: -1px;
+    border-bottom: none;
+}
+
+aside {
+    padding: 1em;
+}
+
+aside button {
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 100%;
+    vertical-align: middle;
+}
+
+nav form {
+    margin: 0.75em 0 0.75em 0.75em;
+}
